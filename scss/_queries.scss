@@ -73,38 +73,12 @@
   }
 }
 
-
-@media screen and (max-width:480px) {
-
-  header {
-    font-size: 40px;
-  }
-
+@media screen and (max-width:478px) {
+  
   .tienda {
 
     .container {
-      width: 100vw;
-    }
-
-    .articulo {
-      width: 180px;
-      height: 297px;
-
-      img {
-        width: 180px;
-      }
-
-      .descripcion-producto {
-        
-        p {
-          font-size: 18px;
-        }
-
-        .precio {
-          margin-bottom: 20px;
-        }
-      }
+    width: 100%;
     }
   }
-  
 }
