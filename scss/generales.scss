@@ -1,0 +1,21 @@
+@import 'tienda', 'header','contacto','map','queries';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+.container {
+  width: 95.5%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.copy {
+  text-align: center;
+}
