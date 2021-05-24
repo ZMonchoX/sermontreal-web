@@ -1,5 +1,6 @@
 @media screen and (max-width:897px) {
 
+
   header {
     
     .titulos {
@@ -66,9 +67,40 @@
 }
 
 @media screen and (max-width:700px) {
-
+  
   .map {
     display: none;
+  }
+}
+
+
+@media screen and (max-width:480px) {
+
+  .tienda {
+
+    .container {
+      width: 100vw;
+    }
+
+    .articulo {
+      width: 180px;
+      height: 297px;
+
+      img {
+        width: 180px;
+      }
+
+      .descripcion-producto {
+        
+        p {
+          font-size: 18px;
+        }
+
+        .precio {
+          margin-bottom: 20px;
+        }
+      }
+    }
   }
   
 }
