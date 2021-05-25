@@ -5,7 +5,7 @@
     .titulos {
 
       h2 {
-        font-size: 50px;
+        font-size: 45px;
       }
 
       h4 {
@@ -39,9 +39,12 @@
 
   .tienda {
 
-    .articulo {
+    .container {
+      width: 100%;
+    }
 
-      width: 190px;
+    .articulo {
+      width: 150px;
     }
   }
 }
